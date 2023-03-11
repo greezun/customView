@@ -2,17 +2,29 @@ package com.example.mycustomview
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.content.res.Resources
 import android.graphics.*
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
 
-class GoogleButtonView(
+class CustomeButtonView(
     context: Context,
     attrs: AttributeSet? = null,
-    defaultAttrs: Int = 0
-) : View(context, attrs, defaultAttrs) {
+    defaultAttrs: Int = 0,
+            defStyle: Int = 0
+) : View(context, attrs, defaultAttrs, defStyle) {
+    constructor(context: Context, attributesSet: AttributeSet?, defStyleAttr: Int) : this(
+        context,
+        attributesSet,
+        defStyleAttr,
+        0
+    )
+
+    constructor(context: Context, attributesSet: AttributeSet?) : this(
+        context, attributesSet, 0
+    )
+
+    constructor(context: Context) : this(context, null)
 
     private val backgroundPainter = Paint().apply {
         isAntiAlias = true

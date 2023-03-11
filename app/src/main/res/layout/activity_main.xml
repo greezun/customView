@@ -7,8 +7,8 @@
     tools:context=".MainActivity"
     android:background="@color/purple_200">
 
-    <com.example.mycustomview.GoogleButtonView
-        android:layout_width="match_parent"
+    <com.example.mycustomview.CustomeButtonView
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
