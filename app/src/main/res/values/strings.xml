@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My custom view</string>
+    <string name="google">GOOGLE</string>
 </resources>

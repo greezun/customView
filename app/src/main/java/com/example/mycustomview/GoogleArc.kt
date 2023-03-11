@@ -20,7 +20,6 @@ class GoogleArcs {
                 paintColor = COLORS[it%4]
             )
         }.toMutableList()
-
     }
 
     fun getArcs() = arcs

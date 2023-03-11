@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GoogleButtonView">
+        <attr name="googleLogoWidth" format="dimension" />
+        <attr name="googleLogoHeight" format="dimension" />
+        <attr name="googleSpace" format="dimension" />
+        <attr name="googleButtonText" format="string" />
+        <attr name="googleButtonTextSize" format="string" />
+    </declare-styleable>
+</resources>
